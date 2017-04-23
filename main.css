@@ -1,0 +1,30 @@
+body {
+    background-color: darkgrey;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid orange;
+    display: block;
+}
+
+button {
+    margin: inherit;
+    display: block;
+}
+
+form {
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

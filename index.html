@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PokemonQuiz</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <div class='js-begin-quiz container'>
+        <df>Are you a pokemon Master?</df>
+        <button id='js-begin'>Begin!</button>
+
+    </div>
+    <div class='question container'>
+        <h4 class='js-question'>Which Pokemon is #001 in the Pokedex?</h4>
+        <div class="answers">
+            <input type='radio' name='possibleanswer' value='0'>Pikachu<br />
+            <input type='radio' name='possibleanswer' value='1'>Charmander<br />
+            <input type='radio' name='possibleanswer' value='2'>Bulbasaur<br />
+            <input type='radio' name='possibleanswer' value='3'>Squirtle<br />
+        </div>
+
+    </div>
+    <div class='results container'>
+        <df>Here is your results</df>
+        <button id='js-reset'>Reset</button>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
